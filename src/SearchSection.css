@@ -1,0 +1,105 @@
+.search-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.logo {
+  width: 272px;
+  margin-bottom: 25px;
+}
+
+.search-box {
+  width: 580px;
+  height: 44px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.search-box:hover {
+  box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+
+.search-box input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.icon {
+  font-size: 16px;
+  color: #9aa0a6;
+}
+
+.clear:hover {
+  color: #d93025;
+}
+
+
+.buttons {
+  margin-top: 25px;
+}
+
+.buttons button {
+  margin: 0 6px;
+  padding: 8px 16px;
+  border: none;
+  background: #f8f9fa;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.buttons button:hover {
+  border: 1px solid #dadce0;
+}
+
+.languages {
+  margin-top: 25px;
+  font-size: 13px;
+}
+
+.languages a {
+  margin-left: 6px;
+  text-decoration: none;
+}
+.brand-logo {
+  display: flex;              /* ✅ KEY FIX */
+  align-items: center;      /* center as a group */
+  color: #202124; /* fallback */
+}
+
+/* AI in orange */
+.brand-logo .ai ,
+.brand-logo .ai2{
+  font-size: 64px;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+/* Labs in light blue */
+.brand-logo .labs {
+  color: #1a73e8; /* clean tech blue */
+  font-size: 28px;
+  font-weight: 600;  /* centers Labs vertically */
+  margin-left: 6px;
+  line-height: 1;
+  position: relative;
+  top: 13.80px;
+}
+.brand-logo-img {
+  height: 150px;          /* MATCHES 64px text visually */
+  width: auto;
+  object-fit: contain;
+  margin-right:-20px;
+  margin-left:-50px;
+}
+
+.mic {
+  cursor: pointer;
+  justify-content:center;
+  align-items:center;
+}
