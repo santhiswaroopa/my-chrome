@@ -103,3 +103,61 @@
   justify-content:center;
   align-items:center;
 }
+/* ---------------- RESPONSIVE FIX ---------------- */
+
+@media (max-width: 768px) {
+
+  .search-area {
+    margin-top: 60px;
+    padding: 0 16px;
+  }
+
+  .search-box {
+    width: 95%;
+    max-width: 580px;
+  }
+
+  .brand-logo-img {
+    height: 90px;   /* smaller on mobile */
+    margin-left: -20px;
+  }
+
+  .brand-logo .ai,
+  .brand-logo .ai2 {
+    font-size: 42px;
+  }
+
+  .brand-logo .labs {
+    font-size: 20px;
+    top: 6px;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .brand-logo-img {
+    height: 70px;
+  }
+
+  .brand-logo .ai,
+  .brand-logo .ai2 {
+    font-size: 34px;
+  }
+
+  .brand-logo .labs {
+    font-size: 16px;
+    top: 4px;
+  }
+
+  .search-box {
+    height: 42px;
+  }
+
+  .buttons button {
+    width: 100%;
+    max-width: 250px;
+    margin: 8px 0;
+  }
+
+}

@@ -9,3 +9,7 @@ body {
   background-color: white;
   color: #202124;
 }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
