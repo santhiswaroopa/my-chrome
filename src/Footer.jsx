@@ -9,11 +9,11 @@ function Footer() {
         <div>
           <a href="#">Advertising</a>
           <a href="#">Business</a>
-          <a href="#">How Search works</a>
+          {/* <a href="#">How Search works</a> */}
         </div>
 
         <div>
-          <a href="#">Privacy</a>
+          {/* <a href="#">Privacy</a> */}
           <a href="#">Terms</a>
           <a href="#">Settings</a>
         </div>
